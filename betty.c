@@ -12,9 +12,11 @@
 
 int main(void)
 {
-	pid_t my_ppid;
+	pid_t my_pid, my_ppid;
 
+	my_pid = getpid();
 	my_ppid = getppid();
-	printf("The ppid of the current process is: %u\n", my_ppid);
+	printf("PID is %u\nPPID is %u\n", my_pid, my_ppid);
+
 	return (0);
 }
