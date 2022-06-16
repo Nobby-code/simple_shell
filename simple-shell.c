@@ -28,7 +28,7 @@ int main()
 		if (strcmp(args[0], quit_val) == 0)
 		{
 			printf("Exiting the shell..\n");
-			break;
+			exit(0);
 		}
 
 		pid = fork();
