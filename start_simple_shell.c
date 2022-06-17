@@ -65,7 +65,7 @@ void start_shell(shell_d *d_sh)
 	j = 1;
 	while (j == 1)
 	{
-		write(STDIN_FILENO, "Turf-$ ", 7);
+		write(STDIN_FILENO, "Cisfun-$ ", 7);
 		input = get_line(&i_eof);
 		if (i_eof != -1)
 		{

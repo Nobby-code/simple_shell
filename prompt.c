@@ -8,5 +8,5 @@
 void get_sigint(int sig)
 {
 	(void)sig;
-	write(STDOUT_FILENO, "\nTurf-$ ", 5);
+	write(STDOUT_FILENO, "\nCisfun-$ ", 5);
 }
